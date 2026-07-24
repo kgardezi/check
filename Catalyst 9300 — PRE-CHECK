@@ -98,3 +98,76 @@ show ntp status
 show aaa servers
 show logging
 terminal length 30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cisco Catalyst 9300 (Pre-Upgrade)
+show version
+show boot
+show install summary
+show switch                  ! (if stack)
+show switch detail           ! (if stack)
+show redundancy              ! (if StackWise Virtual)
+show ip interface brief
+show interfaces status
+show interfaces description
+show interfaces counters errors
+show interfaces trunk
+show vlan brief
+show spanning-tree summary
+show etherchannel summary
+show mac address-table count
+show ip arp
+show ip route summary
+show ip ospf neighbor
+show ip bgp summary
+show standby brief           ! (if HSRP)
+show cdp neighbors
+show lldp neighbors
+show power inline
+show environment all
+show processes cpu sorted
+show processes memory sorted
+show logging
+dir flash:
+show license summary
+show clock
+show ntp status
+Cisco ASR-920 (Pre-Upgrade)
+show version
+show boot
+show platform
+show inventory
+show environment all
+show ip interface brief
+show interfaces description
+show interfaces counters errors
+show ip route summary
+show ip ospf neighbor
+show ip bgp summary
+show mpls interfaces
+show mpls forwarding-table
+show mpls ldp neighbor
+show l2vpn xconnect
+show bfd neighbors
+show cdp neighbors
+show lldp neighbors
+show processes cpu sorted
+show processes memory sorted
+show logging
+dir bootflash:
+show license summary
+show clock
+show ntp status
+
