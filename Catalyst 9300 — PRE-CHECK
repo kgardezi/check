@@ -1,0 +1,100 @@
+Catalyst 9300 — PRE-CHECK
+
+terminal length 0
+show clock
+show version
+show inventory
+show license summary
+show license all
+show running-config
+show startup-config
+show boot
+show bootvar
+dir flash:
+show redundancy
+show switch
+show switch stack-ports
+show switch detail
+show module
+show env all
+show platform
+show processes cpu sorted
+show processes memory sorted
+show interfaces status
+show ip interface brief
+show interfaces
+show interfaces counters errors
+show interfaces trunk
+show vlan brief
+show mac address-table count
+show spanning-tree summary
+show spanning-tree root
+show etherchannel summary
+show cdp neighbors detail
+show lldp neighbors detail
+show ip route summary
+show ip route
+show ip arp
+show ip ospf neighbor
+show ip bgp summary
+show standby brief
+show vrrp brief
+show ip access-lists
+show authentication sessions summary
+show dot1x all summary
+show aaa servers
+show power inline
+show logging
+show archive
+terminal length 30
+
+ASR 920 — PRE-CHECK
+====================
+terminal length 0
+show clock
+show version
+show inventory
+show platform
+show platform diag
+show license summary
+show license all
+show running-config
+show startup-config
+show boot
+show bootvar
+dir bootflash:
+show redundancy
+show env all
+show facility-alarm status
+show processes cpu sorted
+show processes memory sorted
+show ip interface brief
+show interfaces
+show interfaces status
+show controllers
+show interfaces counters errors
+show etherchannel summary
+show cdp neighbors detail
+show lldp neighbors detail
+show ip route summary
+show ip route
+show ip route vrf *
+show vrf
+show ip arp
+show ip ospf neighbor
+show ip ospf interface brief
+show ip bgp summary
+show ip bgp all summary
+show mpls interfaces
+show mpls ldp neighbor
+show mpls forwarding-table
+show l2vpn service all
+show xconnect all
+show bfd neighbors
+show ip access-lists
+show policy-map interface
+show ptp clock
+show ntp status
+show aaa servers
+show logging
+terminal length 30
